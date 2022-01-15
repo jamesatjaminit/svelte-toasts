@@ -270,9 +270,9 @@
                   type="radio"
                   bind:group={type}
                   name="type"
-                  value="warning"
+                  value="warn"
                 />
-                <span class="ml-2">Warning</span>
+                <span class="ml-2">warn</span>
               </label>
             </div>
           </div>

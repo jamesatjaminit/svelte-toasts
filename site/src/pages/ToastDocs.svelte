@@ -97,7 +97,7 @@
       name: 'type',
       type: 'string',
       description:
-        'Four types of toasts are available i.e. success, info, error and warning. It will override toast type set by ToastContainer.',
+        'Four types of toasts are available i.e. success, info, error and warn. It will override toast type set by ToastContainer.',
       default: '-',
     },
     {

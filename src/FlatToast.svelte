@@ -217,14 +217,14 @@
   .st-toast.dark.error progress[value]::-webkit-progress-value {
     background-color: rgb(225, 29, 72);
   }
-  .st-toast.dark.warning {
+  .st-toast.dark.warn {
     border-left: 3px solid rgb(202, 138, 4);
   }
-  .st-toast.dark.warning .st-toast-icon {
+  .st-toast.dark.warn .st-toast-icon {
     fill: rgb(202, 138, 4);
     color: #fff;
   }
-  .st-toast.dark.warning progress[value]::-webkit-progress-value {
+  .st-toast.dark.warn progress[value]::-webkit-progress-value {
     background-color: rgb(202, 138, 4);
   }
   .st-toast.light {
@@ -330,26 +330,26 @@
     border-style: solid;
     border-width: 1px 1px 1px 0;
   }
-  .st-toast.light.warning {
+  .st-toast.light.warn {
     border-left: 3px solid rgb(202, 138, 4);
     background: rgba(202, 138, 4, 0.2);
   }
-  .st-toast.light.warning progress {
+  .st-toast.light.warn progress {
     background: rgba(202, 138, 4, 0.2);
   }
-  .st-toast.light.warning progress[value]::-webkit-progress-bar {
+  .st-toast.light.warn progress[value]::-webkit-progress-bar {
     background-color: transparent;
   }
-  .st-toast.light.warning progress[value]::-webkit-progress-value {
+  .st-toast.light.warn progress[value]::-webkit-progress-value {
     background-color: rgb(202, 138, 4);
   }
-  .st-toast.light.warning .st-toast-icon {
+  .st-toast.light.warn .st-toast-icon {
     fill: rgb(202, 138, 4);
   }
-  .st-toast.light.warning .st-toast-close-btn:focus {
+  .st-toast.light.warn .st-toast-close-btn:focus {
     border: solid 1px rgb(202, 138, 4);
   }
-  .st-toast.light.warning::before {
+  .st-toast.light.warn::before {
     border-color: rgb(202, 138, 4);
     content: '';
     pointer-events: none;

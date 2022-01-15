@@ -248,7 +248,7 @@
     fill: rgb(225, 29, 72);
     color: #fff;
   }
-  .st-toast.warning .st-toast-icon {
+  .st-toast.warn .st-toast-icon {
     fill: rgb(202, 138, 4);
     color: #fff;
   }
@@ -288,11 +288,11 @@
   .st-toast.dark.error .st-toast-header {
     border-bottom: solid 1px #fff;
   }
-  .st-toast.dark.warning .st-toast-icon {
+  .st-toast.dark.warn .st-toast-icon {
     fill: rgb(202, 138, 4);
     color: #fff;
   }
-  .st-toast.dark.warning .st-toast-header {
+  .st-toast.dark.warn .st-toast-header {
     border-bottom: solid 1px #fff;
   }
   .st-toast.light {
@@ -342,15 +342,15 @@
   .st-toast.light.error .st-toast-header {
     border-bottom: 1px solid rgb(225, 29, 72);
   }
-  .st-toast.light.warning {
+  .st-toast.light.warn {
     border-color: rgb(202, 138, 4);
     background: rgba(202, 138, 4, 0.2);
   }
-  .st-toast.light.warning .st-toast-icon {
+  .st-toast.light.warn .st-toast-icon {
     fill: rgb(202, 138, 4);
     color: #fff;
   }
-  .st-toast.light.warning .st-toast-header {
+  .st-toast.light.warn .st-toast-header {
     border-bottom: 1px solid rgb(202, 138, 4);
   }
   .st-toast-header {

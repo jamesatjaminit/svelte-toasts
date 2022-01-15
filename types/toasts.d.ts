@@ -30,10 +30,10 @@ export interface ToastStore extends Writable<ToastProps[]> {
     options?: Partial<ToastProps>
   ): ToastProps;
 
-  warning(options: Partial<ToastProps>): ToastProps;
-  warning(description: string): ToastProps;
-  warning(description: string, options: Partial<ToastProps>): ToastProps;
-  warning(
+  warn(options: Partial<ToastProps>): ToastProps;
+  warn(description: string): ToastProps;
+  warn(description: string, options: Partial<ToastProps>): ToastProps;
+  warn(
     title: string,
     description: string,
     options?: Partial<ToastProps>

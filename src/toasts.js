@@ -74,7 +74,7 @@ function notificationsStore(initialValue = []) {
     success: getHelper('success', add),
     info: getHelper('info', add),
     error: getHelper('error', add),
-    warning: getHelper('warning', add),
+    warn: getHelper('warn', add),
     clearAll,
     clearLast,
     getById,

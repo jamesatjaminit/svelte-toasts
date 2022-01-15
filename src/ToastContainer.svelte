@@ -5,7 +5,7 @@
   import toasts from './toasts';
 
   /**
-   * @typedef {'success' | 'info' | 'error' | 'warning'} ToastType
+   * @typedef {'success' | 'info' | 'error' | 'warn'} ToastType
    * @typedef {'bottom-right' | 'bottom-left' | 'top-right' | 'top-left' | 'top-center' | 'bottom-center' | 'center-center'} Placement
    * @typedef {{
       uid: number;

@@ -1,5 +1,5 @@
 type Theme = 'light' | 'dark';
-export type ToastType = 'success' | 'info' | 'error' | 'warning';
+export type ToastType = 'success' | 'info' | 'error' | 'warn';
 
 export type Placement =
   | 'bottom-right'

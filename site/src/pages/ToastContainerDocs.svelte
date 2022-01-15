@@ -56,7 +56,7 @@
       name: 'type',
       type: 'string',
       description:
-        'Four types of toasts are available i.e. success, info, error and warning.',
+        'Four types of toasts are available i.e. success, info, error and warn.',
       default: 'info',
     },
     {

@@ -65,9 +65,9 @@
       description: 'Show error/red toast.',
     },
     {
-      name: 'warning',
+      name: 'warn',
       type: 'Function',
-      description: 'Show warning/orange toast.',
+      description: 'Show warn/orange toast.',
     },
   ];
 </script>

@@ -162,9 +162,9 @@
       "events": [],
       "typedefs": [
         {
-          "type": "'success' | 'info' | 'error' | 'warning'",
+          "type": "'success' | 'info' | 'error' | 'warn'",
           "name": "ToastType",
-          "ts": "type ToastType = 'success' | 'info' | 'error' | 'warning'"
+          "ts": "type ToastType = 'success' | 'info' | 'error' | 'warn'"
         },
         {
           "type": "'bottom-right' | 'bottom-left' | 'top-right' | 'top-left' | 'top-center' | 'bottom-center' | 'center-center'",
