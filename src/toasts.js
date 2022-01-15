@@ -18,7 +18,7 @@ function notificationsStore(initialValue = []) {
       ...rest
     } = { ...defaultOptions, ...options };
 
-    const uid = Date.now();
+    const uid = Math.random();
     const obj = {
       ...rest,
       uid,
